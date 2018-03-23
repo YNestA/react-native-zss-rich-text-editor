@@ -170,6 +170,9 @@ export const InjectedMessageHandler = `
         case '${actions.setPlatform}':
           zss_editor.setPlatform(action.data);
           break;
+         case '${actions.fontSize}':
+          zss_editor.setFontSize(action.data);
+          break;
       }
     };
   }
